@@ -28,5 +28,5 @@ function AccountCtrl($scope, $ionicPopup) {
         });
     };
 
-    vm.title = "Account"
+    vm.title = "account"
 }

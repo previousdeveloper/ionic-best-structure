@@ -22,7 +22,6 @@ angular.module('starter', [
 
     .config(function ($stateProvider, $urlRouterProvider) {
 
-
         $stateProvider
             .state('tab', {
                 url: "/tab",
