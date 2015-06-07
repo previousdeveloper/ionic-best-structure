@@ -1,0 +1,9 @@
+<ion-view view-title={{vm.title}} ng-controller="AccountCtrl as vm">
+  <ion-content>
+    <ion-list>
+    <ion-toggle  ng-model="vm.settings.enableFriends" ng-click="vm.showConfirm()">
+        Enable Friends
+    </ion-toggle>
+    </ion-list>
+  </ion-content>
+</ion-view>
