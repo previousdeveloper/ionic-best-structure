@@ -1,4 +1,6 @@
-'use strict';
+(function(){
+
+    'use strict';
 
 angular
     .module('chatdetail.module')
@@ -46,3 +48,5 @@ var chats = [{
     lastText: 'My Other Photo',
     face: 'https://scontent-ams2-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/1622830_10152135569347557_81221403_n.jpg?oh=a0237d2b0c0fa3cfb7ee92d1dd84e497&oe=56012212'
 }];
+
+})();

@@ -4,6 +4,7 @@
     <ion-toggle  ng-model="vm.settings.enableFriends" ng-click="vm.showConfirm()">
         Enable Friends
     </ion-toggle>
-    </ion-list>
+
+      <div class="ion-android-arrow-dropdown-circle"  ng-click="vm.showConfirm()" ng-show="vm.settings.enableFriends">Show Me</div>
   </ion-content>
 </ion-view>
